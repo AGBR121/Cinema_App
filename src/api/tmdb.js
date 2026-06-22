@@ -12,3 +12,9 @@ const tmdbApi = axios.create({
 })
 
 export default tmdbApi
+
+export const searchMulti = (query, type, page = 1) =>
+  tmdbApi.get(`/search/${type}`, { params: { query, page } })
+
+export const searchContent = (type, query, page = 1) =>
+  tmdbApi.get(`/search/${type}`, { params: { query, page } })
