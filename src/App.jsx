@@ -9,7 +9,7 @@ import TvShows      from './Pages/TvShows'
 import TvDetail     from './Pages/TvDetail'
 import People       from './Pages/People'
 import PersonDetail from './Pages/PersonDetail'
-import Search       from './Pages/Search'
+import Search       from './Pages/search'
 import NotFound     from './Pages/NotFound'
 
 function App() {
