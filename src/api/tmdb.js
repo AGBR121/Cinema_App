@@ -36,4 +36,7 @@ export const getPersonCredits  = (id)       => tmdbApi.get(`/person/${id}/combin
 export const searchContent = (type, query, page = 1) =>
   tmdbApi.get(`/search/${type}`, { params: { query, page } })
 
+export const searchQuick = (query) =>
+  tmdbApi.get('/search/multi', { params: { query, page: 1 } })
+
 export default tmdbApi

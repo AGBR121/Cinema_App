@@ -7,6 +7,6 @@ function Loader() {
       <p className="loader-text">Cargando...</p>
     </div>
   )
-}
+} 
 
 export default Loader

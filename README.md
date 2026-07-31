@@ -1,6 +1,6 @@
 # CINEMA APP
 
-Utilizando la API de The Movie Database (TMDb) para obtener información sobre películas y series de televisión. Esta aplicación permite a los usuarios buscar películas, ver detalles y calificaciones.
+Utiliza la API de The Movie Database (TMDb) para obtener información sobre películas y series de televisión. Esta aplicación permite a los usuarios buscar películas, ver detalles y calificaciones.
 
 ## Tecnologías utilizadas
 - React
