@@ -6,9 +6,9 @@ import {
   getSimilarTvShows,
   getRecommendedTvShows,
 } from '../api/tmdb'
-import CastCard from '../components/CastCard'
-import RelatedCard from '../components/RelatedCard'
-import Loader from '../components/Loader'
+import CastCard from '../Components/CastCard'
+import RelatedCard from '../Components/RelatedCard'
+import Loader from '../Components/Loader'
 import '../styles/Detail.css'
 
 const IMG_BACKDROP = 'https://image.tmdb.org/t/p/w1280'

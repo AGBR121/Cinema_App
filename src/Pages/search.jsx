@@ -1,8 +1,8 @@
 import { useEffect, useState, useCallback } from 'react'
 import { useSearchParams, Link } from 'react-router-dom'
 import { searchContent } from '../api/tmdb'
-import Pagination from '../components/Pagination'
-import Loader from '../components/Loader'
+import Pagination from '../Components/Pagination'
+import Loader from '../Components/Loader'
 import '../styles/Search.css'
 
 const FILTERS = [

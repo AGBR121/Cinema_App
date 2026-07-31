@@ -1,8 +1,8 @@
 import { useSearchParams, Link } from 'react-router-dom'
 import { getPopularPeople } from '../api/tmdb'
-import usePaginatedList from '../hooks/usePaginatedList'
-import Pagination from '../components/Pagination'
-import Loader from '../components/Loader'
+import usePaginatedList from '../hooks/UsePaginatedList'
+import Pagination from '../Components/Pagination'
+import Loader from '../Components/Loader'
 import '../styles/List.css'
 
 const IMAGE_BASE = 'https://image.tmdb.org/t/p/w300'

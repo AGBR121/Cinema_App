@@ -6,7 +6,7 @@ import {
   getPopularTvShows,
   getPopularPeople,
 } from '../api/tmdb'
-import Loader from '../components/Loader'
+import Loader from '../Components/Loader'
 import '../styles/Home.css'
 
 const IMG_POSTER  = 'https://image.tmdb.org/t/p/w300'

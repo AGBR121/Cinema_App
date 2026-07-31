@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { getPersonById, getPersonCredits } from '../api/tmdb'
-import RelatedCard from '../components/RelatedCard'
-import Loader from '../components/Loader'
+import RelatedCard from '../Components/RelatedCard'
+import Loader from '../Components/Loader'
 import '../styles/Detail.css'
 
 const IMG_PROFILE = 'https://image.tmdb.org/t/p/w400'
