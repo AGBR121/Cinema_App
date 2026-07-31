@@ -1,16 +1,16 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Header from './components/Header'
+import Header from './Components/header'
 
-import Home         from './pages/home'
-import Movies       from './pages/movies'
-import MovieDetail  from './pages/MovieDetail'
-import TvShows      from './pages/TvShows'
-import TvDetail     from './pages/TvDetail'
-import People       from './pages/People'
-import PersonDetail from './pages/PersonDetail'
-import Search       from './pages/Search'
-import NotFound     from './pages/NotFound'
+import Home         from './Pages/home'
+import Movies       from './Pages/movies'
+import MovieDetail  from './Pages/MovieDetail'
+import TvShows      from './Pages/TvShows'
+import TvDetail     from './Pages/TvDetail'
+import People       from './Pages/People'
+import PersonDetail from './Pages/PersonDetail'
+import Search       from './Pages/Search'
+import NotFound     from './Pages/NotFound'
 
 function App() {
   return (
