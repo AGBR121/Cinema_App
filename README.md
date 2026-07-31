@@ -1,16 +1,26 @@
-# React + Vite
+# CINEMA APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Utilizando la API de The Movie Database (TMDb) para obtener información sobre películas y series de televisión. Esta aplicación permite a los usuarios buscar películas, ver detalles y calificaciones.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
+- React
+- Vite
+- Axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalación
+1. Clonar el repositorio:
+   ```bash
+   git clone
+    ```
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+3. Crear un archivo `.env` en la raíz del proyecto y agregar tu clave de API de TMDb:
+   ```
+   VITE_TMDB_ACCESS_TOKEN=tu_clave_de_api
+   ```
+4. Iniciar la aplicación:
+   ```bash
+   npm run dev
+   ```
